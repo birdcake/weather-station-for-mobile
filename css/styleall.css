@@ -1,0 +1,122 @@
+@charset "UTF-8";
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	background-color: #13afe2;
+	margin: 0 auto;
+	padding: 0;
+	color: #000;
+	
+}
+
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color:#efefef;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #efefef;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+/* ~~ this container surrounds all other divs giving them their percentage-based width ~~ */
+.container {
+	width: 100%;
+	background-color: #13afe2;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout. It is not needed if you set the .container's width to 100%. */
+}
+
+/* ~~the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo~~ */
+.header {
+	font-weight: bold;
+	background-color: #000;
+	padding: 1% 30% 1% 30%%;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+}
+
+/* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+.content {
+	width: 400px !important;
+	margin: 0 auto;
+	padding: 0;
+	color:#fff;
+	
+}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 400px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ The footer ~~ */
+.footer {
+	
+	text-align: center;
+	color: #efefef;
+	font-size: 12px;
+	background-color: #13afe2;
+}
+
+.update {
+	font-size: 12px;
+	font-style: italic;
+	color:	#efefef;
+}
+
+.research {
+	font-size: 0.6em;
+}
+
+
+/*
+.feedback {
+	position: absolute;
+	right:5px;
+	font-size: 0.7em;
+	color: #d7d7d7;
+	
+}
+*/
+
+.maintable {
+		
+		border-spacing:5px;
+		table-layout:fixed;
+		width= "100%";
+		padding:5px;
+}
+
+
+.temp_sum0 {
+		font-size: 1.05em;
+}
+
+.temp_sum {
+		font-size: 1.05em;
+		border-top: 1px solid #ededed;
+		display: inline-block !important;
+		text-align: left;
+		width: 380%;
+		padding-top: 6px !important;
+}
+
+.titleheader {
+		
+		width: 400px !important;
+		margin: 0 auto;
+	
+}

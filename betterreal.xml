@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<xmls>
+<xml>
+<refresh_time1>04.23 00:18:11</refresh_time1>
+<refresh_time>00:18:11</refresh_time>
+<forecast_nr>3</forecast_nr>
+<winddir>NNW</winddir>
+<location>Pengjiang</location>
+<forecast_text>Becoming fine</forecast_text>
+<temp>24.7°</temp>
+<intemp>27.1°</intemp>
+<apptemp>29.8°</apptemp>
+<hum>94%</hum>
+<inhum>81%</inhum>
+<press>1012.4 hPa</press>
+<presstrendval>0.1 hPa</presstrendval>
+<dew>23.7°</dew>
+<current_rainfall>0.0 mm</current_rainfall>
+<last_hour_rainfall>0.0 mm</last_hour_rainfall>
+<avg_windspeed>2.5</avg_windspeed>
+<high_windgust>6.1</high_windgust>
+<windunit>km/h</windunit>
+<wchill>24.7°</wchill>
+<heatindex>24.7°</heatindex>
+<avg_dir>NNW</avg_dir>
+<beaufort>F1</beaufort>
+<today_temp_high>24.7°</today_temp_high>
+<today_temp_low>24.6°</today_temp_low>
+<today_press_high>1012.4 hPa</today_press_high>
+<today_press_low>1012.2 hPa</today_press_low>
+<today_hour_rainfall>0.0 mm</today_hour_rainfall>
+<today_rainfall>0.0 mm</today_rainfall>
+<today_max_windspeed>3.6 km/h</today_max_windspeed>
+<today_max_windgust>6.1 km/h</today_max_windgust>
+<yesterday_temp_high>27.4°</yesterday_temp_high>
+<yesterday_temp_low>24.4°</yesterday_temp_low>
+<yesterday_press_high>1013.8 hPa</yesterday_press_high>
+<yesterday_press_low>1010.2 hPa</yesterday_press_low>
+<yesterday_rainfall>2.7 mm</yesterday_rainfall>
+<yesterday_max_windspeed>14.8 km/h</yesterday_max_windspeed>
+<yesterday_max_windgust>17.3 km/h</yesterday_max_windgust>
+<rec_high_temp>39.1°</rec_high_temp>
+<rec_low_temp>5.2°</rec_low_temp>
+<rec_high_press>1029.0 hPa</rec_high_press>
+<rec_low_press>910.4 hPa</rec_low_press>
+<rec_day_rainfall>120.6 mm</rec_day_rainfall>
+<rec_hour_rainfall>27.6 mm</rec_hour_rainfall>
+<rec_max_windspeed>62.3 km/h</rec_max_windspeed>
+<rec_max_windgust>73.4 km/h</rec_max_windgust>
+</xml>
+</xmls>
