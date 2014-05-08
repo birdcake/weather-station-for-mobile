@@ -191,15 +191,15 @@
   }
   ?>
   </td>
-  <td>降雨速率</td>
+  <td>前一小时</td>
   <td><?php
   {
-  $current_rainfalls = $xml->getElementsByTagName( "current_rainfall" );
-  $current_rainfall = $current_rainfalls->item(0)->nodeValue;
+  $last_hour_rainfalls = $xml->getElementsByTagName( "last_hour_rainfall" );
+  $last_hour_rainfall = $last_hour_rainfalls->item(0)->nodeValue;
   
-    echo "$current_rainfall";
+    echo "$last_hour_rainfall";
   }
-  ?>/hr
+  ?>
   </td>
   </tr>
   
@@ -221,7 +221,7 @@
   ?>
   </td>
   
-  <td>气压趋势</td>
+  <td>当前趋势</td>
   <td><?php
   {
   $presstrendvals = $xml->getElementsByTagName( "presstrendval" );
