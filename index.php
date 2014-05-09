@@ -21,6 +21,8 @@
 <!-- END for this session -->
 <!-- GA -->
 <?php include_once("analyticstracking.php") ?>
+<!-- load function.php -->
+<?php include_once("function.php") ?>
 </head>
 
 <body>
@@ -53,11 +55,6 @@
     <tr class="temp_detail" >
     <td>温度</td>
     <td><?php
-  $doc = new DOMDocument();
-  $doc->load( 'betterreal.xml' );
-  
-  $xmls = $doc->getElementsByTagName( "xml" );
-  foreach( $xmls as $xml )
   {
   $temps = $xml->getElementsByTagName( "temp" );
   $temp = $temps->item(0)->nodeValue;
